@@ -5,13 +5,13 @@ table,th,td{
     padding: 8px;
     font-family: Arial, Helvetica, sans-serif;
 }
-td{
+/* td{
     background-color: white;
     text-shadow: 2px 2px 4px #000000;
     color: rgb(26, 25, 25);
     border-color: black;
 
-}
+} */
 table{
     width: 500px;
     margin: 20px;

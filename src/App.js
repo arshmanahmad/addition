@@ -14,19 +14,19 @@ const App = () => {
 }
  const selectGetter = (value) =>{
   setDropDownValue(value);
-}
+// }
 
-const handleClick = () =>{
-  const updatedArr = [
-    ...inputValue,
-    {
-      tasks : input,
-      category : dropDownValue,
-    }
-  ]
-  setInputValue(updatedArr);
-  console.log(updatedArr);
-}
+// const handleClick = () =>{
+//   const updatedArr = [
+//     ...inputValue,
+//     {
+//       tasks : input,
+//       category : dropDownValue,
+//     }
+//   ]
+//   setInputValue(updatedArr);
+//   console.log(updatedArr);
+// }
 
   return (
     <div className='main-container'> 
