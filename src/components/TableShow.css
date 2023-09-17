@@ -1,0 +1,23 @@
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    position: relative;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    background-color: white;
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(26, 25, 25);
+    border-color: black;
+
+}
+table{
+    width: 500px;
+    margin: 20px;
+}
+th{
+    color: white;
+    background-color: black;
+    text-shadow: 1px 1px 2px #f9f7f7;
+}
