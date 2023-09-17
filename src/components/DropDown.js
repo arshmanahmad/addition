@@ -10,14 +10,14 @@ const DropDown = ({valueGetter}) => {
   valueGetter(selectValue);
 
   
-  // const options = [
-  //   { value : "Ceo" , text : "Ceo"},
-  //   { value : "Senior developer" , text : "Senior developer"},
-  //   { value : "Junior developer" , text : "Junior developer"},
-  //   { value : "Internee" , text : "Internee"},
-  //   { value : "Office boy" , text : "Office boy"},
+  const options = [
+    { value : "Ceo" , text : "Ceo"},
+    { value : "Senior developer" , text : "Senior developer"},
+    { value : "Junior developer" , text : "Junior developer"},
+    { value : "Internee" , text : "Internee"},
+    { value : "Office boy" , text : "Office boy"},
 
-  // ];        
+  ];        
  
   return (
     <div>
